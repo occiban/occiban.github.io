@@ -1,0 +1,37 @@
+<!-- Header Start -->
+<header class="{% if page.permalink != '/' %}marg-bottom{% else %}marg-bottom{% endif %}">
+  <div class="header-purple">
+      <div class="header w-nav">
+          <div class="container">
+              <a href="/" class="logo-container w-nav-brand">
+                  <img src="/img/bombay-studio-logo-filled-02-b.svg" alt="logo" class="logo purple"/>
+              </a>
+              <nav class="nav-menu-container w-nav-menu  desktop-only">
+                  <div class="nav-items-container">
+                      <div class="nav-links-container">
+                          <a href="/contact" class="nav-menu-link white box-nav w-nav-link">Contact</a>
+                      </div>
+                  </div>
+              </nav>
+              <div class="menu-mobile w-nav-button">
+                  <div class="close-menu">Close</div>
+                  <div class="hamburger-menu openNav">
+                      <div class="hamburger-menu-line top"></div>
+                      <div class="hamburger-menu-line center"></div>
+                      <div class="hamburger-menu-line bottom"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div id="myNav" class="overlay mobile-only" style="visibility:hidden;">
+    <a href="/">
+      <img src="/img/bombay-studio-logo-filled-02.svg" alt="" class="logo purple"/>
+    </a>
+    <a href="javascript:void(0)" class="closebtn" id="closeNav">Close<span>x</span></a>
+    <div class="overlay-content">
+      <a href="/">Home</a>
+      <a href="/contact">Contact</a>
+    </div>
+  </div>
+</header><!-- header close -->
