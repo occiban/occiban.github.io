@@ -5,7 +5,7 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Contact Us</title>
-<meta name="description" content="Agency with profound focus on international growth. We help you launch and scale. We also invest.">
+<meta name="description" content="Occiban, A mechanical barrier between you and biohazards.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -13,14 +13,14 @@
 <meta property="og:url" content="https://bombay-studio.com/contact/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Contact Us">
-<meta property="og:description" content="Agency with profound focus on international growth. We help you launch and scale. We also invest.">
+<meta property="og:description" content="Occiban, A mechanical barrier between you and biohazards.">
 <meta property="og:image" content="https://bombay-studio.com/img/bombay-studio-logo-filled-012.png">
 
 <!-- Twitter Meta Tags -->
 <meta property="twitter:url" content="https://bombay-studio.com/contact/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Contact Us">
-<meta name="twitter:description" content="Agency with profound focus on international growth. We help you launch and scale. We also invest.">
+<meta name="twitter:description" content="Occiban, A mechanical barrier between you and biohazards.">
 <meta name="twitter:image" content="https://bombay-studio.com/img/bombay-studio-logo-filled-03.png">
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -79,30 +79,96 @@
 
         <div class="section cta-blue-height">
           <div class="container">
-            <div class="row">
-              <div class="col-lg-4">
+            <div class="row" style="padding-bottom: 5%;">
+              <div class="col-lg-6">
                 <h2 class="display color-pink h2 container-cta-about-2">
-                  We’d like to get to know you better.
+                  Occiban helps you<br class="desktop-only"> create
+                  <span style="font-size: 100%;" data-line-height="xs">
+                    <span class="typewrite" data-period="1000" data-type='[ "a clean office.", "a safe environment.", "a low virus environment.", "a long lasting coating." ]'>
+                      <span class="wrap"></span>
+                    </span>
+                  </span>
                 </h2>
                 <img class="only-desktop footer-image" src="/img/Contact/Component 1 – 1.svg" alt="arrow">
                 <br class="only-mobile">
                 <p class="footer-para">Please fill in this form,<br> and within 24h we will be in touch.</p>
               </div>
-              <div class="col-lg-3"><br class="only-mobile"></div>
+              <div class="col-lg-1"><br class="only-mobile"></div>
               <div class="col-lg-4 cust-marg-form">
                 <form action="https://formspree.io/meqpjaka" method="post">
                   <input class="inp-txt" type="text" name="name" value="" placeholder="name">
                   <input class="inp-txt" type="email" name="_replyto" value="" placeholder="e-mail">
                   <input class="inp-txt" type="text" name="title" value="" placeholder="title">
                   <textarea class="inp-txt" type="text" name="info" value="" placeholder="more information"></textarea>
-                  <input class="nav-menu-link white w-nav-link box-nav-2 no-marg lowercase" type="submit" name="" value="Submit">
+                  <input class="nav-menu-link white w-nav-link box-nav-2 no-marg" type="submit" name="" value="Submit">
                 </form>
               </div>
             </div>
             </div>
         </div>
+        <script>
+  var TxtType = function(el, toRotate, period) {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 10) || 2000;
+    this.txt = '';
+    this.tick();
+    this.isDeleting = false;
+  };
+
+
+  TxtType.prototype.tick = function() {
+    var i = this.loopNum % this.toRotate.length;
+    var fullTxt = this.toRotate[i];
+
+    if (this.isDeleting) {
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
+
+    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+    var that = this;
+    var delta = 200 - Math.random() * 100;
+
+    if (this.isDeleting) { delta /= 2; }
+
+    if (!this.isDeleting && this.txt === fullTxt) {
+      delta = this.period;
+      this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === '') {
+      this.isDeleting = false;
+      this.loopNum++;
+      delta = 500;
+    }
+
+    setTimeout(function() {
+      that.tick();
+    }, delta);
+  };
+
+  window.onload = function() {
+
+
+    var elements = document.getElementsByClassName('typewrite');
+    for (var i=0; i<elements.length; i++) {
+      var toRotate = elements[i].getAttribute('data-type');
+      var period = elements[i].getAttribute('data-period');
+      if (toRotate) {
+        new TxtType(elements[i], JSON.parse(toRotate), period);
+      }
+    }
+    // INJECT CSS
+    var css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+    document.body.appendChild(css);
+  };
+</script>
 <div class="footer-v2 footer-projects  mobile-contact-full">
-<div class="container-default">
+<div class="container">
     <div class="w-layout-grid grid-footer">
         <div>
             <a href="/cookies/" class="footer-nav navigation-text colo-white bold-nav mg-bottom-37px cust-footer-link" style="border-bottom: 0;color: #fff !important;vertical-align: top;">
@@ -120,7 +186,7 @@
                     </div>
                     <div class="input-form-container">
                         <input type="email" class="input-footer w-input" maxlength="256" name="_replyto" data-name="email" placeholder="e-mail" id="email" required=""/>
-                        <input type="submit" value="&#8594;" data-wait="" class="button-form-footer w-button"/>
+                        <button type="submit" class="button-form-footer w-button"><img class="vpp" src="/img/arrow.svg" alt="arrow" height="30"></button>
                     </div>
                 </form>
                 <div class="succes-message-white w-form-done">
