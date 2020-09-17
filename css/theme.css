@@ -97,27 +97,27 @@ select:-webkit-autofill:focus {
   padding-right: 10px;
   margin-bottom: 25px;
   outline: none !important;
-  color: #0D1E3D;
+  color: #1f2249;
   font-size: 24px;
   font-weight: 100;
   letter-spacing: 1px;
 }
 .inp-txt::placeholder {
-  color: #0D1E3D; /* Firefox */
+  color: #1f2249; /* Firefox */
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 100;
 }
 
 .inp-txt:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #0D1E3D;
+  color: #1f2249;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 100;
 }
 
 .inp-txt::-ms-input-placeholder { /* Microsoft Edge */
-  color: #0D1E3D;
+  color: #1f2249;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 100;
 }
 .inp-txt:focus::placeholder {
   opacity: .3; /* Firefox */
@@ -129,6 +129,9 @@ select:-webkit-autofill:focus {
 
 .inp-txt:focus::-ms-input-placeholder { /* Microsoft Edge */
  opacity: .3;
+}
+input[type=submit] {
+  cursor: pointer;
 }
 .box-nav:hover {
   /*background-color: #DB9195BF;*/
