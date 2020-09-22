@@ -1231,6 +1231,9 @@ h4 {
     border: 0;
     padding: 0;
   }
+  .box-nav-2 {
+    background: transparent !important;
+  }
 }
 
 @media screen and (max-width: 479px) {
