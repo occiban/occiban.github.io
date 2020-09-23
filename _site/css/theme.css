@@ -226,7 +226,11 @@ input[type=submit] {
   letter-spacing: 1px;
   font-weight: 700;
   text-align: center;
-  line-height: 100px;
+  height: 90px;
+  margin-top: 60px;
+}
+.card-box p {
+  margin: 0 auto;
 }
 
 .two-col-image {
@@ -1129,6 +1133,7 @@ h4 {
   .card-box h3 {
     line-height: normal;
     margin: 40px 0;
+    height: auto;
   }
   .why-section .text-center {
     text-align: center !important;
@@ -1242,6 +1247,27 @@ h4 {
   }
 }
 
+@media (min-width: 1201px) {
+  .work-section .col-lg-5.up-down-flex {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 48%;
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+  .two-bottom {
+    width: 514px;
+    margin: 0;
+  }
+  .two-bottom a {
+    display: table;
+    margin: 0 auto !important;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .padd-left {
+    padding-left: 20px;
+  }
+}
 @media (min-width: 992px) and (max-width: 1200px) {
   .col-lg-1 {
     -webkit-box-flex: 0;
