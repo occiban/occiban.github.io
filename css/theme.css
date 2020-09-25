@@ -227,6 +227,9 @@ input[type=submit] {
 .card-box.transparent p {
     padding-right: 15%;
 }
+.card-box.transparent ul {
+    padding-right: 15%;
+}
 .card-box.transparent img {
     height: 350px;
 }
@@ -406,6 +409,14 @@ input[type=submit] {
   font-weight: 700;
 }
 .two-text p{
+  color: #0D1E3D;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  max-width: 400px;
+}
+.two-text ul{
   color: #0D1E3D;
   font-size: 24px;
   font-weight: 400;
@@ -1164,6 +1175,11 @@ h4 {
     font-size: 16px;
     font-family: 'Bitter', serif;
   }
+  .how-section ul{
+    font-size: 16px;
+    font-family: 'Bitter', serif;
+    margin: 0 auto;
+  }
   .how-section .padd-left {
     padding-left: 15px;
   }
@@ -1308,6 +1324,9 @@ h4 {
     padding: 0 30px;
   }
   .card-box.transparent p {
+      padding-right: 0;
+  }
+  .card-box.transparent ul {
       padding-right: 0;
   }
   .card-box.transparent h3 {
