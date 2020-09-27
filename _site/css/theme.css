@@ -216,6 +216,14 @@ input[type=submit] {
   width: 83.3333333%;
   margin: 0 auto;
 }
+.three-col .col-lg-3 .card-box h3 {
+  font-size: 22px;
+  line-height: 35px;
+  height: 75px;
+}
+.three-col .col-lg-3 .card-box p {
+  font-size: 18px;
+}
 .card-box {
     background-color: #f8eced;
     padding: 40px 5px;
@@ -400,6 +408,22 @@ input[type=submit] {
   display: block;
   width: 100%;
   margin: 0 auto;
+}
+.others-section {
+  background-color: #7497A74A;
+  padding: 50px 0;
+}
+.certi-section {
+  margin-bottom: 0 !important;
+  padding-bottom: 150px;
+  background-color: #7497A74A;
+  padding-top: 50px;
+}
+.others-section .row {
+  margin: 0;
+}
+.others-section .row .col-lg-10 {
+  margin: 0;
 }
 .two-text h2, .how-section h2{
   color: #0D1E3D;
@@ -1190,7 +1214,7 @@ h4 {
     width: 100%;
     margin-top: 0;
   }
-  .three-col .col-lg-4 {
+  .three-col .col-lg-4, .three-col .col-lg-3 {
     padding: 0;
     margin-bottom: 50px;
   }
@@ -1345,6 +1369,14 @@ h4 {
   .card-box h3 {
     font-size: 22px;
   }
+  .others-section .row .col-lg-10 {
+    margin: 0 30px;
+    padding: 0;
+  }
+  .certi-section {
+    padding-bottom: 150px;
+    padding-top: 50px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1426,6 +1458,16 @@ h4 {
     right: 4%;
     top: -20%;
     position: absolute;
+  }
+
+  .certi-section .two-bottom {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .certi-section .two-bottom a {
+    display: table;
+    margin: 0 auto !important;
   }
 }
 
