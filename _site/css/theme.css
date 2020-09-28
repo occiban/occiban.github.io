@@ -229,17 +229,34 @@ input[type=submit] {
     padding: 40px 5px;
     height: 100%;
 }
+
 .card-box.transparent {
     background-color: transparent;
+}
+.card-box.gray {
+    background-color: #7497A74A;
 }
 .card-box.transparent p {
     padding-right: 15%;
 }
+.card-box.transparent h3 {
+    width: 90%;
+    min-width: 300px;
+    max-width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .card-box.transparent ul {
-    padding-right: 15%;
+  width: 90%;
+  min-width: 300px;
+  max-width: 450px;
+  display: block;
+  margin: 0 auto;
 }
 .card-box.transparent img {
     height: 350px;
+    width: auto !important;
 }
 .card-box.default-ht img {
     height: auto;
@@ -250,6 +267,8 @@ input[type=submit] {
 .card-box img {
     margin: 0 auto;
     display: block;
+    height: 122px;
+    width: 122px;
 }
 .card-box h3 {
   color: #0D1E3D;
@@ -413,11 +432,20 @@ input[type=submit] {
   background-color: #7497A74A;
   padding: 50px 0;
 }
-.certi-section {
-  margin-bottom: 0 !important;
-  padding-bottom: 150px;
+.certi-section .proof{
   background-color: #7497A74A;
-  padding-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.certi-section .certi{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.certi-section .certi img{
+  display: block;
+}
+.certi-section .proof .two-text p{
+  max-width: none;
 }
 .others-section .row {
   margin: 0;
@@ -459,6 +487,16 @@ input[type=submit] {
   line-height: normal;
   max-width: 1000px;
   margin: 0 auto;
+}
+.row p.new-font {
+  text-align: center;
+  font-weight: 400;
+  color: #0D1E3D;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-size: 32px;
+  letter-spacing: 1px;
+  line-height: 56px;
 }
 .ital-box p {
   font-style: italic;
@@ -1376,6 +1414,15 @@ h4 {
   .certi-section {
     padding-bottom: 150px;
     padding-top: 50px;
+  }
+  .row p.new-font {
+    color: #0D1E3D;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Bitter', serif;
+    line-height: 1.5;
+    padding: 0;
+    text-align: left;
   }
 }
 
