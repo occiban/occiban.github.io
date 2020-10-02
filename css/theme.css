@@ -586,11 +586,17 @@ input[type=submit] {
 .image-container {
   background-color: #7497A7;
   width: 100%;
-  height: 60vh;
+  height: 80vh;
   background-origin: border-box;
   background-size: contain;
   background-position-x: right;
   background-repeat: no-repeat;
+}
+#myVideo {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
 }
 .image-container::after {
   content: "";
@@ -921,6 +927,25 @@ h4 {
   }
   .min-ht {
     min-height: 850px;
+  }
+  .root .colorful {
+    background-color: transparent !important;
+  }
+  .root header {
+    position: absolute;
+    width: 100%;
+  }
+  .root .image-container {
+    height: 90vh;
+  }
+  .root .image-container h1 {
+    letter-spacing: 2px;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: auto;
+    width: 48%;
+    font-family: 'Bitter', serif;
   }
 }
 @media (max-width: 991px) {

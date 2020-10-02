@@ -5,7 +5,7 @@
     {% include head.html %}
 
   </head>
-  <body>
+  <body class="{% if page.permalink == '/' %}root{% endif %}">
 
     {% include header.html %}
 
