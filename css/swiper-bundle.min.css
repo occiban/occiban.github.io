@@ -44,8 +44,11 @@
     .swiper-slide img {
       width: 100%;
     }
+    .swiper-slide video {
+      width: 100%;
+    }
     .swiper-slide div::after {
-      content: "hello";
+      content: "";
       position: absolute;
       left: 0;
       right: 0;
@@ -58,6 +61,7 @@
       line-height: normal;
       padding: 0 8%;
     }
+    /*
     .swiper-slide .img-1::after {
       content: "the disinfectant is 100% organic";
       position: absolute;
@@ -72,6 +76,7 @@
       word-spacing: 999999em;
       top: 30%;
     }
+    */
     .swiper-container-vertical>.swiper-pagination-bullets {
       right: calc( 50% - 30px );
     }
@@ -161,4 +166,3 @@
         }
 
     }
-    
