@@ -647,6 +647,7 @@ input[type=submit] {
     left: 8.33%;
     width: 50%;
     font-family: 'Bitter', serif;
+    font-size: 45px;
 }
 .colorful {
   color: #E9C1C2;
