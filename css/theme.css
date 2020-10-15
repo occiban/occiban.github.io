@@ -558,7 +558,10 @@ input[type=submit] {
 .features-section {
   margin-top: 10%;
 }
-
+.features-mobile {
+  margin-top: 20%;
+}
+  
 .ital-box p {
   font-style: italic;
 }
