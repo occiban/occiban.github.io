@@ -90,6 +90,10 @@ select:-webkit-autofill:focus {
 .color-blu {
   color: #7497A7 !important;
 }
+.col-6 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 .footer-para {
   color: #fff !important;
   max-width: 424px;
