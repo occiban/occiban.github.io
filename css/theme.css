@@ -206,6 +206,8 @@ input[type=submit] {
 }
 .marg-bottom-xxl {
   margin-bottom: 150px !important;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .marg-bottom-xxxl {
   margin-bottom: 200px !important;
