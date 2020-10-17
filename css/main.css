@@ -102,9 +102,9 @@ body {
   font-size: 50px;
   font-style: italic;
 }
-div.col-6 {
-  padding-left: 0px;
-  padding-right: 0px;
+col-6 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 footer {
   padding-top: 90px;
