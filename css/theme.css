@@ -11,6 +11,12 @@ html {
 .text-left {
   text-align: left !important;
 }
+.text-center {
+  text-align: center !important;
+}
+.all-margin {
+  margin: auto;
+}
 .container-fluid {
     position: relative;
     margin-left: auto;
