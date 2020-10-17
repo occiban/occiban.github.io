@@ -102,7 +102,10 @@ body {
   font-size: 50px;
   font-style: italic;
 }
-
+div.col-6 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 footer {
   padding-top: 90px;
   padding-bottom: 30px;
