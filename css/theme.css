@@ -1547,12 +1547,12 @@ h4 {
   }
   .row p.new-font {
     color: #0D1E3D;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     font-family: 'Bitter', serif;
-    line-height: 1.5;
+    line-height: 22px;
     padding: 0;
-    text-align: left;
+    text-align: center;
   }
   #nano .row {
     margin: 0;
