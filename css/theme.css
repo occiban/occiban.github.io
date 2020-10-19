@@ -1037,6 +1037,9 @@ h4 {
     padding-right: 45px;
     line-height: 25px;
   }
+  .marg-bottom-xl {
+    margin-bottom: 20px !important;
+  }
   .marg-bottom-mobile {
     margin-bottom: 50px;
   }
