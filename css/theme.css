@@ -484,10 +484,10 @@ input[type=submit] {
 }
 .two-text p{
   color: #0D1E3D;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
   font-family: 'Lato', sans-serif;
-  line-height: 1.5;
+  line-height: 26px;
   max-width: 430px;
   margin: 0 auto;
 }
@@ -538,15 +538,15 @@ input[type=submit] {
 }
 .two-text ul{
   color: #0D1E3D;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
   font-family: 'Lato', sans-serif;
-  line-height: 1.5;
+  line-height: 26px;
   max-width: 400px;
 }
 .two-mid ul, .two-mid p, .normal-font{
   color: #0D1E3D;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
   font-family: 'Lato', sans-serif;
   line-height: 2;
@@ -562,9 +562,9 @@ input[type=submit] {
   color: #0D1E3D;
   max-width: 1300px;
   margin: auto;
-  font-size: 24px;
-  letter-spacing: 1px;
-  line-height: 56px;
+  font-size: 22px;
+  letter-spacing: 0px;
+  line-height: 26px;
 }
 .features-text {
   margin: 60px 0 0 0 !important;
