@@ -1040,6 +1040,9 @@ h4 {
   .marg-bottom-xl {
     margin-bottom: 20px !important;
   }
+  .marg-bottom-xxl {
+    margin-bottom: 70px !important;
+  }
   .marg-bottom-mobile {
     margin-bottom: 50px;
   }
@@ -1290,10 +1293,10 @@ h4 {
   }
   .standalone {
     color: #0D1E3D;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     font-family: 'Bitter', serif;
-    line-height: 1.5;
+    line-height: 22px;
     padding: 0 30px;
   }
   .all-margin {
