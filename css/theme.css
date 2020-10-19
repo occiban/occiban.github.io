@@ -665,7 +665,7 @@ input[type=submit] {
 .image-container h1 {
     letter-spacing: 2px;
     position: absolute;
-    top: calc( 50% - 300px );
+    top: calc( 50% - 225px );
     left: 8.33%;
     width: 50%;
     font-family: 'Bitter', serif;
@@ -1280,7 +1280,7 @@ h4 {
     left: 30px;
     color: #1F2249;
     letter-spacing: 1px;
-    font-size: 30px !important;
+    font-size: 22px !important;
     line-height: 2;
     width: 90%;
     font-family: 'Bitter', serif;
