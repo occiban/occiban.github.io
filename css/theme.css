@@ -1293,6 +1293,9 @@ h4 {
     line-height: 1.5;
     padding: 0 30px;
   }
+  .all-margin {
+    margin: 0 30px;
+  }
   .two-text {
     margin-top: 50px;
   }
